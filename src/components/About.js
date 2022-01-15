@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
-import sanityClient from "/Users/DY/Desktop/folders/iportfolio/portfolio/src/client.js";
-import balloon from "/Users/DY/Desktop/folders/iportfolio/portfolio/src/Turk_AirBalloon.JPG";
+import sanityClient from "/Users/DY/Desktop/folders/portfolio/src/client.js";
+import balloon from "/Users/DY/Desktop/folders/portfolio/src/Turk_AirBalloon.JPG";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
