@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import sanityClient from "../client.js";
 
 
+
 export default function Project(){
 
     const [projectData, setProjectDate] = useState(null);
@@ -19,7 +20,9 @@ export default function Project(){
             tags
         }`
         )
-        .then((data)=> setProjectDate(data))
+        .then((data)=> setProjectDate(data.sort(function(a,b){
+            return new Date(b.date) - new Date(a.date);
+        })))
         .catch(console.error);
     }, []);
 
@@ -80,6 +83,14 @@ export default function Project(){
                                         →
                                     </span>
                                 </a>
+                                <div className="text-gray-500 text-xs space-x-4">
+                                <span>
+                                        <strong className="font-bold">
+                                            Tags
+                                        </strong>:{" "}
+                                        {project.tags}
+                                    </span>
+                                </div>
                             </article>
                     ))}
                 </section>
