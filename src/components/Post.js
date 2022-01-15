@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import{Link} from "react-router-dom"
-import sanityClient from "/Users/DY/Desktop/folders/portfolio/src/client.js";
+import sanityClient from "/Users/DY/Desktop/folders/portfolio/src/client.js/";
 
 
 export default function Post(){
