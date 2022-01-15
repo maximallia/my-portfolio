@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import sanityClient from "/Users/DY/Desktop/folders/portfolio/src/client.js/";
+import sanityClient from "/Users/DY/Desktop/folders/portfolio/src/client.js";
 
 
 export default function Project(){

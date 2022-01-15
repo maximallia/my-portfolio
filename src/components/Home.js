@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/Users/DY/Desktop/folders/portfolio/src/Turk_AirBalloon.JPG/"
+import image from "/Users/DY/Desktop/folders/portfolio/src/Turk_AirBalloon.JPG"
 
 export default function Home(){
     return (
