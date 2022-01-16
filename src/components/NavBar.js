@@ -19,7 +19,7 @@ export default function NavBar(){
                         >
                         Daniel Ying
                     </NavLink>
-                    <NavLink
+                    {/*<NavLink
                         to ="/post"
                         className={({isActive})=>
                             isActive ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-bold hover:text-green-800 cursive bg-red-700"
@@ -29,7 +29,7 @@ export default function NavBar(){
                         }
                         >
                         Posts
-                    </NavLink>
+                    </NavLink>*/}
                     <NavLink
                         to ="/project"
                         activeStyle="text-red-100 bg-red-700"
@@ -42,7 +42,7 @@ export default function NavBar(){
                         >
                         Projects
                     </NavLink>
-                    <NavLink
+                    {/*<NavLink
                         to ="/about"
                         activeStyle="text-red-100 bg-red-700"
                         className={ ({isActive}) =>
@@ -53,7 +53,7 @@ export default function NavBar(){
                         }
                         >
                         About Me/Contact Info.
-                    </NavLink>
+                    </NavLink>*/}
 
                 </nav>
                 <div>
