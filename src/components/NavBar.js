@@ -42,7 +42,7 @@ export default function NavBar(){
                         >
                         Projects
                     </NavLink>
-                    {/*<NavLink
+                    <NavLink
                         to ="/about"
                         activeStyle="text-red-100 bg-red-700"
                         className={ ({isActive}) =>
@@ -53,7 +53,7 @@ export default function NavBar(){
                         }
                         >
                         About Me/Contact Info.
-                    </NavLink>*/}
+                    </NavLink>
 
                 </nav>
                 <div>
