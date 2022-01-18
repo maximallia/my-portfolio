@@ -25,10 +25,9 @@ export default function Contact(){
 
     return (
         <main className="relative ">
-            <img src={night} alt="Air Balloon in Turkey" className="absolute w-full h-full" />
-            <div className="p-10 lg:pt-48 container mx-auto relative">
-                <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
-
+            <img src={night} alt="Air Balloon in Turkey" className="absolute oject-cover w-full h-full" />
+            <div className="py-20 lg:pt-48 container mx-auto relative">
+                <section className="bg-green-800 rounded shadow-2xl px-20 py-20">
                     <div className="text-lg flex flex-col justify-center">
                         <h1 className="cursive text-6xl text-green-200 mb-4">
                             My Contact Info: {" "}
