@@ -20,15 +20,16 @@ export default function NavBar(){
                         Daniel Ying
                     </NavLink>
                     <NavLink
-                        to ="/post"
-                        className={({isActive})=>
-                            isActive ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-bold hover:text-green-800 cursive bg-red-700"
+                        to ="/about"
+                        activeStyle="text-red-100 bg-red-700"
+                        className={ ({isActive}) =>
+                            isActive ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-bold hover:text-green-800 cursive"
                             :
                             "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-thin hover:text-green-800 cursive"
                             
                         }
                         >
-                        Posts
+                        About Me
                     </NavLink>
                     <NavLink
                         to ="/project"
@@ -43,7 +44,19 @@ export default function NavBar(){
                         Projects
                     </NavLink>
                     <NavLink
-                        to ="/about"
+                        to ="/post"
+                        className={({isActive})=>
+                            isActive ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-bold hover:text-green-800 cursive bg-red-700"
+                            :
+                            "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-thin hover:text-green-800 cursive"
+                            
+                        }
+                        >
+                        Posts
+                    </NavLink>
+
+                    <NavLink
+                        to ="/contact"
                         activeStyle="text-red-100 bg-red-700"
                         className={ ({isActive}) =>
                             isActive ? "inline-flex items-center py-3 px-3 my-6 rounded text-red-200 text-3xl font-bold hover:text-green-800 cursive"
@@ -52,7 +65,7 @@ export default function NavBar(){
                             
                         }
                         >
-                        About Me/Contact Info.
+                        Contact Info
                     </NavLink>
 
                 </nav>
